@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class = "container py-5">
+    <h3 class="text-center text-uppercase">Lijst met cursusssen</h3>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr class="text-center text-uppercase">
+          
+          <th>Duur</th>
+          <th>Titel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor ="let c of cursussen">
+          
+          <td>{{c.Duur}}</td>
+          <td>{{c.Titel}}</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+</body>
+</html>
