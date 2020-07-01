@@ -16,13 +16,13 @@ namespace ZV_CursusAdmin.App
             config.EnableCors(cors);
 
 
-            // Set JSON formatter as default one and remove XmlFormatter
-            var jsonFormatter = config.Formatters.JsonFormatter;
-            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
-            jsonFormatter.SerializerSettings.DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Utc;
+          
+
 
             // Web API configuration and services
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
 
             // Web API routes
             config.MapHttpAttributeRoutes();

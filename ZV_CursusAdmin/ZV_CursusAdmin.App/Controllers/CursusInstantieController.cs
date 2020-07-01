@@ -17,6 +17,8 @@ namespace ZV_CursusAdmin.App.Controllers
         {
             db = new CursusAdminContext();
         }
+        [HttpGet]
+        [Route("Api/CursusInstantie")]
         public IEnumerable<CursusInstantie> GetCursusInstantie()
         {
             return db.CursusInstanties.ToList();

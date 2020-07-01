@@ -14,7 +14,7 @@ export class CursusListComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.httpService.get('http://localhost:44317/Api/Cursus').subscribe(
+    this.httpService.get('http://localhost:44318/Api/CursusInstantie').subscribe(
       data => {
         this.cursussen = data as string []
       }

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ZVCursusAdminFE"
+    }
+  },
+  "defaultProject": "ZVCursusAdminFE",
+  "cli": {
+    "analytics": false
+  }
 }

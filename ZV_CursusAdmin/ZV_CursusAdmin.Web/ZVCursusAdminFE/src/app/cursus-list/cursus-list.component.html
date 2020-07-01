@@ -11,16 +11,16 @@
     <table class="table table-bordered table-striped">
       <thead>
         <tr class="text-center text-uppercase">
-          
+          <th>Start</th>
           <th>Duur</th>
           <th>Titel</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor ="let c of cursussen">
-          
-          <td>{{c.Duur}}</td>
-          <td>{{c.Titel}}</td>
+            <td>{{c.StartDatum}}</td>
+            <td>{{c.Cursus.Duur}}</td>
+          <td>{{c.Cursus.Titel}}</td>
         </tr>
       </tbody>
 

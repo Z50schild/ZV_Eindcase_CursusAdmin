@@ -1,0 +1,14 @@
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\ZV_CursusAdmin.Test.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\ZV_CursusAdmin.Test.pdb
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\obj\Debug\ZV_CursusAdmin.Test.csprojAssemblyReference.cache
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\obj\Debug\ZV_CursusAdmin.Test.csproj.CoreCompileInputs.cache
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\obj\Debug\ZV_CursusAdmin.Test.csproj.CopyComplete
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\obj\Debug\ZV_CursusAdmin.Test.dll
+C:\Zefanja\ZV_CA\ZV_CursusAdmin\ZV_CursusAdmin.Test\obj\Debug\ZV_CursusAdmin.Test.pdb
