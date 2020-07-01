@@ -143,6 +143,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CursusInstantieRepository.cs" />
+    <Compile Include="Repositories\ICursusInstantieRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

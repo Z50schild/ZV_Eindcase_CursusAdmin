@@ -6,22 +6,30 @@ using System.Net.Http;
 using System.Web.Http;
 using ZV_CursusAdmin.App.Context;
 using ZV_CursusAdmin.App.Entities;
+using ZV_CursusAdmin.App.Repositories;
 
 namespace ZV_CursusAdmin.App.Controllers
 {
     public class CursusInstantieController : ApiController
     {
-        private CursusAdminContext db;
-
-        public CursusInstantieController()
+        private ICursusInstantieRepository cursusInstantieRepository;
+       public CursusInstantieController()
         {
-            db = new CursusAdminContext();
+            this.cursusInstantieRepository = new CursusInstantieRepository(new CursusAdminContext());
         }
+
+        public CursusInstantieController(ICursusInstantieRepository cursusInstantieRepository)
+        {
+            this.cursusInstantieRepository = cursusInstantieRepository;
+        }
+
         [HttpGet]
         [Route("Api/CursusInstantie")]
         public IEnumerable<CursusInstantie> GetCursusInstantie()
         {
-            return db.CursusInstanties.ToList();
+            var product = cursusInstantieRepository.GetCursusInstantie();
+            return product;
+
         }
     }
 }

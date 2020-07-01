@@ -4,11 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ZV_CursusAdmin.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class CursusInstantieControllerTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CursusInstatnieController_GetCursusInstantie_NotNull()
         {
+
         }
     }
 }
