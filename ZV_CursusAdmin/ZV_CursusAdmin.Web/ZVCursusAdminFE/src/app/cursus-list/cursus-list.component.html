@@ -18,7 +18,7 @@
       </thead>
       <tbody>
         <tr *ngFor ="let c of cursussen">
-            <td>{{c.StartDatum}}</td>
+            <td>{{c.StartDatum | customDate }}</td>
             <td>{{c.Cursus.Duur}}</td>
           <td>{{c.Cursus.Titel}}</td>
         </tr>

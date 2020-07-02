@@ -6,13 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {from} from 'rxjs';
 import { CursusListComponent } from './cursus-list/cursus-list.component';
+import { CustomDatePipe } from './shared/Pipes/custom.datepipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CursusListComponent
-  
+    CursusListComponent,
+    CustomDatePipe
   ],
   imports: [
     BrowserModule,
