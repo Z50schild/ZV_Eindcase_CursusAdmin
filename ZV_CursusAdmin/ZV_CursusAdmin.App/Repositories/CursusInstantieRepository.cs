@@ -15,7 +15,7 @@ namespace ZV_CursusAdmin.App.Repositories
         {
             this.db = db;
         }
-        public IEnumerable<CursusInstantie> GetCursusInstantie()
+        public IEnumerable<CursusInstantie> GetAllCursusInstanties()
         {
             return db.CursusInstanties.ToList();
         }

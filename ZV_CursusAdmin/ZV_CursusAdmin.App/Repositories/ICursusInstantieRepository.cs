@@ -8,6 +8,6 @@ namespace ZV_CursusAdmin.App.Repositories
 {
     public interface ICursusInstantieRepository
     {
-         IEnumerable<CursusInstantie> GetCursusInstantie();
+         IEnumerable<CursusInstantie> GetAllCursusInstanties();
     }
 }
