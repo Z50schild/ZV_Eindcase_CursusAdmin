@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web;
 using System.Web.Http;
 using ZV_CursusAdmin.App.Context;
 using ZV_CursusAdmin.App.Entities;
@@ -32,5 +33,22 @@ namespace ZV_CursusAdmin.App.Controllers
             return product;
 
         }
+
+        
+        [HttpPost]
+        [Route("fileupload")]
+        public async Task<IHttpActionResult> PostFile()
+        {
+            HttpResponseMessage result = null;
+            var httpRequest = HttpContext.Current.Request;
+            if (httpRequest.Files.Count > 0)
+            {
+                var listFiles = new List<string>();
+                foreach(string file in httpRequest.Files)
+                {
+                    var postedFile = httpRequest.Files[file];
+                    var filePath = HttpContext.Current.Server.MapPath()
+                }
+            }
     }
 }

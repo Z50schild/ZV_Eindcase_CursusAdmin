@@ -24,7 +24,6 @@ export class UploadService {
             case HttpEventType.Response: 
             return event.body;
               default: return `Unhandled event:${event.type}`;
-            
           }
           }
         ));
