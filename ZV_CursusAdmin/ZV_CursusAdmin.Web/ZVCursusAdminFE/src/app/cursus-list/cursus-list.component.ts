@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClientModule, HttpClient} from '@angular/common/http';
 
+
+
 @Component({
   selector: 'app-cursus-list',
   templateUrl: './cursus-list.component.html',
@@ -9,8 +11,9 @@ import { HttpClientModule, HttpClient} from '@angular/common/http';
 
 export class CursusListComponent implements OnInit {
 
-  constructor(private httpService: HttpClient) { }
-  cursussen: string[];
+  constructor(private httpService: HttpClient ) { }
+    cursussen: string[];
+    
 
 
   ngOnInit(): void {
@@ -19,6 +22,8 @@ export class CursusListComponent implements OnInit {
         this.cursussen = data as string []
       }
     )
+
+    
   }
 
 }

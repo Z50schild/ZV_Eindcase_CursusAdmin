@@ -7,20 +7,26 @@ import { AppComponent } from './app.component';
 import {from} from 'rxjs';
 import { CursusListComponent } from './cursus-list/cursus-list.component';
 import { CustomDatePipe } from './shared/Pipes/custom.datepipe';
+import { ReactiveFormsModule } from '@angular/forms';
+import { UploadComponent } from './upload/upload.component';
+import { UploadService } from './upload/upload.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CursusListComponent,
-    CustomDatePipe
+    CustomDatePipe,
+    UploadComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [UploadService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
